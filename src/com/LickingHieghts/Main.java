@@ -24,7 +24,7 @@ public class Main {
 
 
 
-
+    int secretwordlength;
 	int numberOfMisses = 0;
 	 for (int i = 0; i < 15; i ++){
 		 hangManImage(i);
@@ -45,7 +45,7 @@ public class Main {
     }
 }
 
-   pulbic static void hangManImage(int tries){
+   public  static void hangManImage(int tries){
 	   String display = "";
 	   switch (tries) {
 			   
