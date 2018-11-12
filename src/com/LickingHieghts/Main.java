@@ -18,6 +18,13 @@ public class Main {
 
     public static void main(String[] args) {
 
+    System.out.println("Welcome to Hang-Guy");
+    System.out.println("The rules are guess letters for a given word ");
+    System.out.println("Every time you guess a letter a blank will be filled in");
+    System.out.println("if you guess a wrong letter the hang guy will be built");
+    System.out.println("you 15 tries if the hang guy is fully built you lose ");
+    System.out.println("Have Fun and Good Luck!!!");
+
 
 
 
@@ -25,7 +32,7 @@ public class Main {
 
 
     int secretwordlength;
-	int numberOfMisses = 0;
+	int Misses = 0;
 	 for (int i = 0; i < 15; i ++){
 		 hangManImage(i);
 		 {
@@ -36,8 +43,8 @@ public class Main {
 			 
 			 Scanner keyboard = new Scanner (System.in);
 			 System.out.println("Enter secret word:");
-			 String word = keyboard.nextLine();
-	    
+			 String secretword = keyboard.nextLine();
+
 		 
 	 }
 			 
@@ -86,7 +93,7 @@ public class Main {
 		      case 2:		
 		           System.out.println("     |-------------------------|");
                            System.out.println("     |                         |");
-			   System.out.println("     |                           -- --");
+			   System.out.println("     |                                  -- --");
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
@@ -104,7 +111,7 @@ public class Main {
 				  case 3:		
 		           System.out.println("     |-------------------------|");
                            System.out.println("     |                         |");
-			   System.out.println("     |                      (  - -   ) " );
+			   System.out.println("     |                                 (  - -   ) " );
                            System.out.println("     |                            ");
                            System.out.println("     |");
                            System.out.println("     |");
@@ -121,7 +128,7 @@ public class Main {
 				  case 4:		
 		           System.out.println("     |-------------------------|");
                            System.out.println("     |                         |");
-			   System.out.println("     |                        (  - -   ) " );
+			               System.out.println("     |                       (  - -  ) " );
                            System.out.println("     |                            |");
                            System.out.println("     |");
                            System.out.println("     |");
@@ -140,7 +147,7 @@ public class Main {
 			     case 5:		
 		           System.out.println("     |-------------------------|");
                            System.out.println("     |                         |");
-			   System.out.println("     |                       (   - -   ) " );
+			   System.out.println("     |                                   (   - -   ) " );
                            System.out.println("     |                            |");
                            System.out.println("     |                            |");
                            System.out.println("     |");
@@ -157,7 +164,7 @@ public class Main {
 			        case 6:		
 		           System.out.println("     |-------------------------|");
                            System.out.println("     |                          ");
-			   System.out.println("     |                        (  - -   ) " );
+			   System.out.println("     |                                    (  - -   ) " );
                            System.out.println("     |                            |");
                            System.out.println("     |                        |---|");
                            System.out.println("     |                           ");
@@ -178,7 +185,7 @@ public class Main {
 			     case 7:		
 		           System.out.println("     |-------------------------|");
                            System.out.println("     |                         |");
-			   System.out.println("     |                        (  - -   ) " );
+			   System.out.println("     |                                   (  - -   ) " );
                            System.out.println("     |                            |");
                            System.out.println("     |                        |---|");
                            System.out.println("     |                        |    ");
@@ -196,7 +203,7 @@ public class Main {
 			    case 8:		
 		           System.out.println("     |-------------------------|");
                            System.out.println("     |                         |");
-			   System.out.println("     |                       (   - -   ) " );
+			   System.out.println("     |                                  (   - -   ) " );
                            System.out.println("     |                            |");
                            System.out.println("     |                        |---|");
                            System.out.println("     |                        |    ");
@@ -213,7 +220,7 @@ public class Main {
 			    case 9:		
 		           System.out.println("     |-------------------------|");
                            System.out.println("     |                         |");
-			   System.out.println("     |                        (  - -   ) " );
+			   System.out.println("     |                                    (  - -  ) " );
                            System.out.println("     |                            |");
                            System.out.println("     |                        |---|");
                            System.out.println("     |                        |    ");
@@ -231,7 +238,7 @@ public class Main {
 			     case 10:		
 		           System.out.println("     |-------------------------|");
                            System.out.println("     |                         |");
-			   System.out.println("     |                        (  - -   ) " );
+			   System.out.println("     |                                   (  - -   ) " );
                            System.out.println("     |                            |");
                            System.out.println("     |                        |---|");
                            System.out.println("     |                        |   |");
@@ -247,11 +254,11 @@ public class Main {
 			    case 11:		
 		           System.out.println("     |-------------------------|");
                            System.out.println("     |                         |");
-			   System.out.println("     |                       (   - -   ) " );
+			   System.out.println("     |                                   (   - -   ) " );
                            System.out.println("     |                            |");
                            System.out.println("     |                        |---|---");
-                           System.out.println("     |                        |    |");
-                           System.out.println("     |                        |    |");
+                           System.out.println("     |                        |   |");
+                           System.out.println("     |                        |   |");
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
@@ -264,7 +271,7 @@ public class Main {
 			   case 12:		
 		           System.out.println("     |-------------------------|");
                            System.out.println("     |                         |");
-			   System.out.println("     |                      (    - -   ) " );
+			   System.out.println("     |                                 (    - -   ) " );
                            System.out.println("     |                            |");
                            System.out.println("     |                        |---|---|");
                            System.out.println("     |                        |   |   |");
@@ -280,15 +287,15 @@ public class Main {
 			     case 13:		
 		           System.out.println("     |-------------------------|");
                            System.out.println("     |                         |");
-			   System.out.println("     |                        (  - -   ) " );
+			   System.out.println("     |                                    (  - -  ) " );
                            System.out.println("     |                            |");
                            System.out.println("     |                        |---|---|");
                            System.out.println("     |                        |   |   |");
                            System.out.println("     |                        |   |   |");
                            System.out.println("     |                            |");
                            System.out.println("     |                            /  ");
-                           System.out.println("     |                           /");
-                           System.out.println("     |                          /");
+                           System.out.println("     |                           |");
+                           System.out.println("     |                           |");
 			   System.out.println("----|----------------------------------------|");
                            System.out.println("");
 			    break;	      	      	      
@@ -297,15 +304,15 @@ public class Main {
 			    case 14:		
 		           System.out.println("     |-------------------------|");
                            System.out.println("     |                         |");
-			   System.out.println("     |                        (  - -   ) " );
+			   System.out.println("     |                                    (  - -   ) " );
                            System.out.println("     |                            |");
                            System.out.println("     |                        |---|---|");
                            System.out.println("     |                        |   |   |");
                            System.out.println("     |                        |   |   |");
                            System.out.println("     |                            |");
                            System.out.println("     |                            /  |");
-                           System.out.println("     |                           /   |");
-                           System.out.println("     |                          /    |");
+                           System.out.println("     |                           |   |");
+                           System.out.println("     |                           |   |");
 			   System.out.println("----|----------------------------------------|");
                            System.out.println("");
 			    break;	      	      	   
@@ -315,15 +322,15 @@ public class Main {
 			       case 15:		
 		           System.out.println("     |-------------------------|");
                            System.out.println("     |                         |");
-			   System.out.println("     |                        (  - -   ) " );
+			   System.out.println("     |                                    (  - -   ) " );
                            System.out.println("     |                            |");
                            System.out.println("     |                        |---|---|");
                            System.out.println("     |                        |   |   |");
                            System.out.println("     |                        |   |   |");
                            System.out.println("     |                            |");
                            System.out.println("     |                            /  |");
-                           System.out.println("     |                           /   |");
-                           System.out.println("     |                        --/    |--");
+                           System.out.println("     |                           |   |");
+                           System.out.println("     |                         <-|   |->");
 			   System.out.println("----|----------------------------------------|");
                            System.out.println("");
 			    break;	      	      	   
