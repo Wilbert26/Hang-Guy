@@ -15,7 +15,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/LickingHieghts/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4505">
+            <state relative-caret-position="3995">
               <caret line="265" column="50" lean-forward="true" selection-start-line="265" selection-start-column="50" selection-end-line="265" selection-end-column="50" />
             </state>
           </provider>
@@ -33,7 +33,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -101,7 +101,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6267716" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.64409447" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -147,7 +147,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/LickingHieghts/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4505">
+        <state relative-caret-position="3995">
           <caret line="265" column="50" lean-forward="true" selection-start-line="265" selection-start-column="50" selection-end-line="265" selection-end-column="50" />
         </state>
       </provider>
