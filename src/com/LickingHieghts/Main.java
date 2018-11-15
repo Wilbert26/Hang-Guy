@@ -33,17 +33,19 @@ public class Main {
 
     int secretwordlength;
 	int Misses = 0;
-	 for (int i = 0; i < 15; i ++){
+	 for (int i = 0; i < 16; i ++){
 		 hangManImage(i);
 		 {
 	 int tries = 0;
 			 boolean iterated = false;
 			 String temp = "";
 			 String holder = "";
+			 int length;
+			 String StoredWord;
 			 
-			 Scanner keyboard = new Scanner (System.in);
+			 Scanner typedword = new Scanner (System.in);
 			 System.out.println("Enter secret word:");
-			 String secretword = keyboard.nextLine();
+			 StoredWord= typedword.nextLine();
 
 		 
 	 }
@@ -70,7 +72,7 @@ public class Main {
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("----|----------------------------------------|");
-                           System.out.println("");
+                           System.out.println("Stage 0");
 			    break;
 					      
 					    
@@ -386,3 +388,6 @@ public class Main {
 
     }
 }
+   // Scanner keyboard = new Scanner (System.in);
+		//	 System.out.println("Enter secret word:");
+                  //   String secretword = keyboard.nextLine();
