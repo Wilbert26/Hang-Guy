@@ -39,7 +39,7 @@ public class Main {
                 int length;
                 String StoredWord;
                 char[] censor;
-                char[] charstring;
+                char[] CRstring;
 
                 StringBuilder pastguesses = new StringBuilder();
 
@@ -49,7 +49,7 @@ public class Main {
                 StoredWord = StoredWord.toLowerCase();
                 length = StoredWord.length();
 
-                charstring = StoredWord.toCharArray();
+                CRstring = StoredWord.toCharArray();
 
                 censor = StoredWord.toCharArray();
                 System.out.println("Your secret word is: ");
@@ -60,7 +60,7 @@ public class Main {
 
                 while (String.valueOf(censor).equals(StoredWord) == false) {
 
-                    char charguess;
+                    char CRguess;
                     String tpword;
                     String tpstring;
                     boolean correct = false;
@@ -77,13 +77,13 @@ public class Main {
                     Scanner guess = new Scanner(System.in);
                     System.out.println("Enter Guess NOW!!!: ");
                     tpword = guess.next();
-                    charguess = tpword.charAt(0);
+                    CRguess = tpword.charAt(0);
 
-                    pastguesses.append(charguess);
+                    pastguesses.append(CRguess);
                     tpstring = pastguesses.toString();
 
 
-                    if (tpstring.lastIndexOf(charguess, tpstring.length() - 2) != -1) {
+                    if (tpstring.lastIndexOf(CRguess, tpstring.length() - 2) != -1) {
                         System.out.println("What are you doing you already guessed this letter! Guess again. Your previous guesses were: ");
                         pastguesses.deleteCharAt(tpstring.length() - 1);
                         System.out.println(tpstring.substring(0, tpstring.length() - 1));
@@ -93,15 +93,15 @@ public class Main {
                     if (repeat == false) {
                         for (int index = 0; index < length; index++) {
 
-                            if (charstring[index] == Character.toLowerCase(charguess)) {
+                            if (CRstring[index] == Character.toLowerCase(CRguess)) {
 
-                                censor[index] = Character.toLowerCase(charguess);
+                                censor[index] = Character.toLowerCase(CRguess);
                                 correct = true;
                                 times++;
                             }
                         }
                         if (correct == true) {
-                            System.out.println("The letter " + charguess + " is in the secret word! There are " + times + " " + charguess + " 's in the word. Revealing the letter(s): ");
+                            System.out.println("The letter " + CRguess + " is in the secret word! There are " + times + " " + CRguess + " 's in the word. Revealing the letter(s): ");
                         } else if (correct == false) {
                             System.out.println("Sorry, this letter is not in your word. Your secret word:  ");
 
