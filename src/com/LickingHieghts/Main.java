@@ -27,7 +27,7 @@ public class Main {
         System.out.println("|--------------------------------------------------------------|");
 
 
-        int secretwordlength;
+        int SecretWordLength;
         int Misses = 0;
         for (int i = 0; i < 16; i++) {
             hangManImage(i);
@@ -39,7 +39,7 @@ public class Main {
                 int length;
                 String StoredWord;
                 char[] censor;
-                char[] CRstring;
+                char[] CRString;
 
                 StringBuilder pastguesses = new StringBuilder();
 
@@ -49,7 +49,7 @@ public class Main {
                 StoredWord = StoredWord.toLowerCase();
                 length = StoredWord.length();
 
-                CRstring = StoredWord.toCharArray();
+                CRString = StoredWord.toCharArray();
 
                 censor = StoredWord.toCharArray();
                 System.out.println("Your secret word is: ");
@@ -60,9 +60,9 @@ public class Main {
 
                 while (String.valueOf(censor).equals(StoredWord) == false) {
 
-                    char CRguess;
-                    String tpword;
-                    String tpstring;
+                    char CRGuess;
+                    String TPWord;
+                    String TPString;
                     boolean correct = false;
                     int times = 0;
                     boolean repeat = false;
@@ -76,32 +76,32 @@ public class Main {
 
                     Scanner guess = new Scanner(System.in);
                     System.out.println("Enter Guess NOW!!!: ");
-                    tpword = guess.next();
-                    CRguess = tpword.charAt(0);
+                    TPWord = guess.next();
+                    CRGuess = TPWord.charAt(0);
 
-                    pastguesses.append(CRguess);
-                    tpstring = pastguesses.toString();
+                    pastguesses.append(CRGuess);
+                    TPString = pastguesses.toString();
 
 
-                    if (tpstring.lastIndexOf(CRguess, tpstring.length() - 2) != -1) {
+                    if (TPString.lastIndexOf(CRGuess, TPString.length() - 2) != -1) {
                         System.out.println("What are you doing you already guessed this letter! Guess again. Your previous guesses were: ");
-                        pastguesses.deleteCharAt(tpstring.length() - 1);
-                        System.out.println(tpstring.substring(0, tpstring.length() - 1));
+                        pastguesses.deleteCharAt(TPString.length() - 1);
+                        System.out.println(TPString.substring(0, TPString.length() - 1));
                         repeat = true;
                     }
 
                     if (repeat == false) {
                         for (int index = 0; index < length; index++) {
 
-                            if (CRstring[index] == Character.toLowerCase(CRguess)) {
+                            if (CRString[index] == Character.toLowerCase(CRGuess)) {
 
-                                censor[index] = Character.toLowerCase(CRguess);
+                                censor[index] = Character.toLowerCase(CRGuess);
                                 correct = true;
                                 times++;
                             }
                         }
                         if (correct == true) {
-                            System.out.println("The letter " + CRguess + " is in the secret word! There are " + times + " " + CRguess + " 's in the word. Revealing the letter(s): ");
+                            System.out.println("The letter " + CRGuess + " is in the secret word! There are " + times + " " + CRGuess + " 's in the word. Revealing the letter(s): ");
                         } else if (correct == false) {
                             System.out.println("Sorry, this letter is not in your word. Your secret word:  ");
 
@@ -138,7 +138,7 @@ public class Main {
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
-                           System.out.println("----|----------------------------------------|");
+                           System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 0");
 			    break;
 					      
@@ -156,7 +156,7 @@ public class Main {
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
-                           System.out.println("----|----------------------------------------|");
+                           System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 1");
 			    break;	      
 					
@@ -173,7 +173,7 @@ public class Main {
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
-                           System.out.println("----|----------------------------------------|");
+                           System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 2 ");
 			    break;	      
 					      
@@ -192,7 +192,7 @@ public class Main {
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
-                           System.out.println("----|----------------------------------------|");
+                           System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 3");
 			    break;	      	      
 					      
@@ -203,14 +203,14 @@ public class Main {
 		                   System.out.println("     |-------------------------|");
                            System.out.println("     |                         |");
 			               System.out.println("     |                       (  o o  ) " );
-                           System.out.println("     |                            |");
+                           System.out.println("     |                           |");
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
-                           System.out.println("----|----------------------------------------|");
+                           System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 4");
 			    break;	      	      	      
 				
@@ -223,14 +223,14 @@ public class Main {
 			               System.out.println("     |-------------------------|");
                            System.out.println("     |                         |");
 			               System.out.println("     |                      (   o o   ) " );
-                           System.out.println("     |                            |");
-                           System.out.println("     |                            |");
+                           System.out.println("     |                           |");
+                           System.out.println("     |                           |");
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
-                           System.out.println("----|----------------------------------------|");
+                           System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 5");
 			    break;	      	      	      
 			   
@@ -248,7 +248,7 @@ public class Main {
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
-                           System.out.println("----|----------------------------------------|");
+                           System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 6");
 			    break;	      	      	      
 			   
@@ -270,7 +270,7 @@ public class Main {
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
-                           System.out.println("----|----------------------------------------|");
+                           System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 7");
 			    break;	      	      	      
 			   
@@ -289,7 +289,7 @@ public class Main {
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
-                           System.out.println("----|----------------------------------------|");
+                           System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 8");
 			    break;	      	      	      
 			   
@@ -307,7 +307,7 @@ public class Main {
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
-                           System.out.println("----|----------------------------------------|");
+                           System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 9");
 			    break;	      	      	      
 			   
@@ -326,7 +326,7 @@ public class Main {
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
-                           System.out.println("----|----------------------------------------|");
+                           System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 10");
 			    break;	      	      	      
 			   
@@ -344,7 +344,7 @@ public class Main {
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
-                           System.out.println("----|----------------------------------------|");
+                           System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 11");
 			    break;	      	      	      
 			   
@@ -362,7 +362,7 @@ public class Main {
                            System.out.println("     |");
                            System.out.println("     |");
                            System.out.println("     |");
-                           System.out.println("----|----------------------------------------|");
+                           System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 12" );
 			     break;
 			   
@@ -377,10 +377,10 @@ public class Main {
                            System.out.println("     |                        |   |   |");
                            System.out.println("     |                        |   |   |");
                            System.out.println("     |                            |");
-                           System.out.println("     |                            /  ");
-                           System.out.println("     |                           |");
-                           System.out.println("     |                           |");
-			               System.out.println("----|----------------------------------------|");
+                           System.out.println("     |                           /  ");
+                           System.out.println("     |                          |");
+                           System.out.println("     |                          |");
+			               System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 13");
 			     break;
 			   
@@ -395,10 +395,10 @@ public class Main {
                            System.out.println("     |                        |   |   |");
                            System.out.println("     |                        |   |   |");
                            System.out.println("     |                            |");
-                           System.out.println("     |                            /  |");
-                           System.out.println("     |                           |   |");
-                           System.out.println("     |                           |   |");
-			               System.out.println("----|----------------------------------------|");
+                           System.out.println("     |                           /  |");
+                           System.out.println("     |                          |   |");
+                           System.out.println("     |                          |   |");
+			               System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 14");
 			     break;
 			   
@@ -414,10 +414,10 @@ public class Main {
                            System.out.println("     |                        |   |   |");
                            System.out.println("     |                      |_|  _|   |");
                            System.out.println("     |                            |");
-                           System.out.println("     |                            /  |");
-                           System.out.println("     |                           |   |");
-                           System.out.println("     |                         <-|   |->");
-                           System.out.println("----|----------------------------------------|");
+                           System.out.println("     |                           /  |");
+                           System.out.println("     |                          |   |");
+                           System.out.println("     |                        <-|   |->");
+                           System.out.println(" ----|----------------------------------------|");
                            System.out.println("Stage 15");
 			    break;	      	      	   
 			   
