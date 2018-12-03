@@ -17,6 +17,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
+        String user;
+
         System.out.println("                        !RULES!");
         System.out.println("|--------------------------------------------------------------|");
         System.out.println("|                 Welcome to Hang-Guy                          |");
@@ -26,9 +29,9 @@ public class Main {
         System.out.println("|              Have Fun and Good Luck!!!                       |");
         System.out.println("|--------------------------------------------------------------|");
 
-        Scanner StoredWord = new Scanner(System.in);
+        Scanner keyboard = new Scanner(System.in);
         System.out.println("Enter secret word:");
-
+       user = keyboard.nextLine();
         int SecretWordLength;
         int Misses = 0;
         for (int i = 0; i < 16; i++) {
