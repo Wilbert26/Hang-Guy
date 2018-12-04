@@ -30,8 +30,10 @@ public class Main {
         System.out.println("|--------------------------------------------------------------|");
 
         Scanner keyboard = new Scanner(System.in);
-        System.out.println("Enter secret word:");
-       user = keyboard.nextLine();
+         System.out.println("|---------------------------------|");
+         System.out.println("|Enter secret word:               |");
+        user = keyboard.nextLine();
+        System.out.println("|----------------------------------|");
         int SecretWordLength;
         int Misses = 0;
         for (int i = 0; i < 16; i++) {
