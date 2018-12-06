@@ -35,12 +35,19 @@ public class Main {
         Scanner keyboard = new Scanner(System.in);
          System.out.println("|---------------------------------|");
          System.out.println("|Enter secret word:               |");
+<<<<<<< HEAD
         UserSectretWord = keyboard.nextLine();
         System.out.println("|----------------------------------|");
 
         int SecretWordLength; // THe length of the secret word kinda like the dashes
         String GuessDashes; // this for when the secret word is entered then it will the amount of letters like this ---
         int Misses = 0; // The amount of times that the person has guessed wrong
+=======
+        user = keyboard.nextLine();
+        System.out.println("|----------------------------------|");
+        int SecretWordLength;
+        int Misses = 0;
+>>>>>>> master
         for (int i = 0; i < 16; i++) {
             hangManImage(i);
             {

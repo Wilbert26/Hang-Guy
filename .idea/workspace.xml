@@ -19,8 +19,13 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/LickingHieghts/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="442">
               <caret line="47" column="107" selection-start-line="47" selection-start-column="107" selection-end-line="47" selection-end-column="107" />
+=======
+            <state relative-caret-position="408">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -48,9 +53,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="AndroidView" />
+=======
+      <pane id="ProjectPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+>>>>>>> master
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -109,6 +120,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.02519685" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+<<<<<<< HEAD
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+>>>>>>> master
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -134,6 +149,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/LickingHieghts/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="544">
           <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
         </state>
@@ -148,6 +164,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/LickingHieghts/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+=======
+>>>>>>> master
         <state relative-caret-position="646">
           <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
@@ -239,8 +257,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/LickingHieghts/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="442">
           <caret line="47" column="107" selection-start-line="47" selection-start-column="107" selection-end-line="47" selection-end-column="107" />
+=======
+        <state relative-caret-position="408">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+>>>>>>> master
         </state>
       </provider>
     </entry>
