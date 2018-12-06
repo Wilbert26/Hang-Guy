@@ -18,7 +18,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String user;
+
+
 
         System.out.println("                        !RULES!");
         System.out.println("|--------------------------------------------------------------|");
@@ -29,26 +30,30 @@ public class Main {
         System.out.println("|              Have Fun and Good Luck!!!                       |");
         System.out.println("|--------------------------------------------------------------|");
 
+        String UserSectretWord; // this if for the nextline thing so the user can type the secret for the second player
+
         Scanner keyboard = new Scanner(System.in);
          System.out.println("|---------------------------------|");
          System.out.println("|Enter secret word:               |");
-        user = keyboard.nextLine();
+        UserSectretWord = keyboard.nextLine();
         System.out.println("|----------------------------------|");
-        int SecretWordLength;
-        int Misses = 0;
+
+        int SecretWordLength; // THe length of the secret word kinda like the dashes
+        String GuessDashes; // this for when the secret word is entered then it will the amount of letters like this ---
+        int Misses = 0; // The amount of times that the person has guessed wrong
         for (int i = 0; i < 16; i++) {
             hangManImage(i);
             {
 
-                int tries = 0;
+                int tries = 0; //this will be the grand total of tries counting the correct ones at the end
                 boolean iterated = false;
                 String temp = "";
                 String holder = "";
-                int length;
+                int length; // basically the same as the SecretWordLength i'm not sure on which to use
 
             }
 
-}
+   }
 }
 
 
