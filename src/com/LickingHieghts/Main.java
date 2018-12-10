@@ -85,6 +85,35 @@ public class Main {
                         break;
 
 
+                    case 1:
+                        System.out.println("             HANG GUY");
+                        System.out.println("     |-------------------------|");
+                        System.out.println("     |                         |");
+                        System.out.println("     |                        - -");
+                        System.out.println("     |");
+                        System.out.println("     |");
+                        System.out.println("     |");
+                        System.out.println("     |");
+                        System.out.println("     |");
+                        System.out.println("     |");
+                        System.out.println("     |");
+                        System.out.println(" ----|----------------------------------------|");
+                        System.out.println("Stage 1 ");
+                        break;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     case 2:
                         System.out.println("             HANG GUY");
                         System.out.println("     |-------------------------|");
@@ -317,7 +346,7 @@ public class Main {
                         System.out.println("     |                            |");
                         System.out.println("     |                        |---|---|");
                         System.out.println("     |                        |   |   |");
-                        System.out.println("     |                      |_|  _|   |");
+                        System.out.println("     |                      |_|   |   |");
                         System.out.println("     |                            |");
                         System.out.println("     |                           /  |");
                         System.out.println("     |                          |   |");
